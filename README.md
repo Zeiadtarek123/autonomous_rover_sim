@@ -52,3 +52,14 @@ ros2 launch roar_autonomy core_navigation.launch.py
    git add README.md
    git commit -m "docs: add project README.md"
    git push origin main
+
+
+## 📺 Media & Demonstrations
+To view the full-resolution screen recordings of the rover's autonomous missions, including Gazebo simulations and RViz sensor visualizations, visit the project media folder:
+
+[Direct Link to Simulation Recordings](https://drive.google.com/drive/folders/1N9CdFV8Soqyi_3aVkCv9rnb599V9wYIa?usp=sharing)
+
+### Key Visualizations:
+* **Autonomous Navigation**: Rover traversing the Marsyard using $A^*$ and APF planners.
+* **Perception Pipeline**: Real-time ArUco marker detection and coordinate frame estimation.
+* **Sensor Fusion**: RViz visualization of IMU and wheel odometry data streams.
