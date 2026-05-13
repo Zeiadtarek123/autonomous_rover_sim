@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="aruco_world">
+
+    <!-- Standard lighting and ground -->
+    <include><uri>model://sun</uri></include>
+    <include><uri>model://ground_plane</uri></include>
+
+    <!-- ══════════════════════════════════════════════════
+         4 ArUco Poles in a square formation
+         Square side = 6 m, robot spawns at origin (0,0)
+         Poles face inward so camera sees the marker face
+         ══════════════════════════════════════════════════════ -->
+
+    <!-- Pole 51 — front-right corner (+3, +3) facing toward origin -->
+    <include>
+      <uri>model://pole51</uri>
+      <name>pole51</name>
+      <pose>3 3 0   0 0 -2.356</pose>
+    </include>
+
+    <!-- Pole 52 — front-left corner (+3, -3) facing toward origin -->
+    <include>
+      <uri>model://pole52</uri>
+      <name>pole52</name>
+      <pose>3 -3 0   0 0 2.356</pose>
+    </include>
+
+    <!-- Pole 53 — back-left corner (-3, -3) facing toward origin -->
+    <include>
+      <uri>model://pole53</uri>
+      <name>pole53</name>
+      <pose>-3 -3 0   0 0 0.785</pose>
+    </include>
+
+    <!-- Pole 54 — back-right corner (-3, +3) facing toward origin -->
+    <include>
+      <uri>model://pole54</uri>
+      <name>pole54</name>
+      <pose>-3 3 0   0 0 -0.785</pose>
+    </include>
+
+    <!-- Physics settings -->
+    <physics name="default_physics" default="0" type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>
+x
+X
+\x
+

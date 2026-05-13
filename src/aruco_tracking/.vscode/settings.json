@@ -1,0 +1,23 @@
+{
+    "ROS2.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/martin/ros2_ws/install/rock_detector/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/aruco_tracking/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/roar_msgs/local/lib/python3.10/dist-packages",
+        "/home/martin/ros2_ws/install/obstacle_merger/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/iou_filter/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/arl_ros2_project/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/martin/ros2_ws/install/rock_detector/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/aruco_tracking/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/roar_msgs/local/lib/python3.10/dist-packages",
+        "/home/martin/ros2_ws/install/obstacle_merger/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/iou_filter/lib/python3.10/site-packages",
+        "/home/martin/ros2_ws/install/arl_ros2_project/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
